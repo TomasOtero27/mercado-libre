@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: #EAC926;
+}
+
+.Titulares{
+    font-size: 24px;
+    text-align: center ;
+    display: flex;
+    justify-content: flex-end;
+
+    height: 25px;
+   width: 400px;
+
+}
+
+#texto{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+#centrado{
+    display: flex;
+    justify-content:space-around;
+    flex-direction: row;
+    width: 1300px;
+}
+
+
+
+
+#login{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgrey;
+    height: 100%;
+    margin: auto;
+}
+
+.separar{
+    width: 100%;
+    padding: 20px;
+}
+
+.estilos{
+    color: black;
+    border: 0;
+    background: none;
+   height: 50px;
+   width: 500px;
+   border-radius: 10px;
+    border: 2px solid white;
+    text-align: center;
+   background-color: white;
+    outline: none;
+}
+
+.estilosBoton{
+    height: 50px;
+   width: 400px;
+   background-color: blue;
+   border-radius: 10px;
+   border: none;
+   color: white;
+  
+}
+.Descripciones{
+    font-size: 16px;
+    text-align: center ;
+}
+#Descripciones1{
+    text-align: center ;
+    font-size: 24px;
+}

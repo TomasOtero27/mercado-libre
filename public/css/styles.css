@@ -1,0 +1,181 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }*/
+.burgerMenu{
+    background-color: #1259c3;;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+main{
+    padding: 0%;
+    justify-content: center;
+}
+body{
+    background-color: #EAC926;
+
+}
+
+footer{
+    background-color: white;
+    
+}
+
+section{
+    padding: 0px;
+    margin: 0px;
+    background-color:  #ebebeb;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+    width: 50%;
+}
+
+#centrado{
+    display: flex;
+    justify-content: left;
+}
+
+
+
+.juntos{
+    display: flex;
+    flex-direction: row;
+}
+
+.articulos{
+    border: solid 1px white;
+    padding: 5px;
+    margin: 15px;
+    background-color: white;
+}
+
+.foto{
+    border: solid 5px white;
+    padding: 15px;
+    margin: 15px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#texto{
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+}
+
+.tamañotipoCuerpo{
+    font-size: 12px;
+    
+}
+
+.Titulares{
+    font-size: 24px;
+    text-align: center ;
+    display: flex;
+    justify-content: flex-end;
+
+    height: 25px;
+   width: 400px;
+
+}
+h3{
+    font-size: 18px;
+}
+
+h4{
+    font-size: 14px;
+    color: green;
+}
+
+h2{
+    font-size: 15px;
+}
+
+
+
+.Descripciones{
+    font-size: 16px;
+    text-align: center ;
+}
+#Descripciones1{
+    text-align: center ;
+    font-size: 24px;
+}
+
+#caja{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    width: 100% !important;
+}
+
+@media(min-width:361px){
+  body main section article div h2 {
+        display: none;
+    }
+    body{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+   
+
+    #centrado{
+        display: none;
+    }
+}
+
+@media(min-width: 769px){
+    body main section article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        }
+    header div{
+        display: block ;
+    }
+
+    header div svg{
+        display: none;
+    }
+
+    .burgerMenu{
+        display: none;
+    }
+
+    body main section article div h2 {
+        display: block;
+    }
+
+    #centrado{
+        display: block;
+    }
+
+}
+
